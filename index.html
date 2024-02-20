@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해피바스쥬스스무디 바캉스 응모이벤트</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- 제이쿼리라이브러리 먼저 로드 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- 직접 작성한 자바스크립트 코드 나중에 연결 -->
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class="inner">
+                <button type="button" class="btn-open">
+                    <img src="images/menu-line.svg" alt="전체메뉴열기">
+                </button>
+                <h1 class="logo"> 
+                    <a href="#"><img src="images/logo.png" alt="해피바스"></a>
+                </h1>
+                <div class="m-menu-area">
+                    <button type="button" class="btn-close">
+                        <img src="images/close-fill.svg" alt="닫기">
+                    </button>
+                    <nav class="gnb-wrap">
+                        <ul id="gnb">
+                            <li><a href="#">나의바캉스? 경품이벤트</a></li>
+                            <li><a href="#">선착순 비타민 체험</a></li>
+                            <li><a href="#">제품이야기</a></li>
+                        </ul>
+                    </nav>    
+                </div>
+            </div>
+        </header>
+        <div id="container">
+            <div class="main-visual">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide1">
+
+                            <img src="images/main-img1.png" alt="" class="pc">
+                            <img src="images/main-img1-m.png" alt="" class="mobile">
+
+                            <div class="in">
+                                <div class="txt-box">
+                                    <p class="txt1">해피바스 <span>로즈 에센스</span><br><span>브라이트닝</span> 바디워시</p>
+                                    <p class="txt2">Rose Essence Brightening Body Wash</p>
+                                    <p class="txt3">5가지 식물 유래 오일의 깊은 보습<br>풍부한 로즈향이 기분까지 로맨틱하게</p>
+                                </div>
+                            </div>
+                        </div><!-- swiper-slide -->
+                        <div class="swiper-slide slide2">
+
+                            <img src="images/main-img2.png" alt="" class="pc">
+                            <img src="images/main-img2-m.png" alt="" class="mobile">
+
+                            <div class="in">
+                                <div class="txt-box">
+                                    <p class="txt1">해피바스 <span>쥬스 스무디</span><br><span>옐로우</span> 바디워시</p>
+                                    <p class="txt2">Juice Smoothie Yellow Bodywash</p>
+                                    <p class="txt3">갓 짜낸 과즙으로 생기팡팡 스무디 샤워!<br>레몬 과즙과 유자 성분 함유로 에너자이징</p>
+                                </div>
+                            </div>
+                        </div><!-- swiper-slide -->
+                    </div><!-- swiper-wrapper -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div><!-- mySwiper -->
+            </div><!-- main-visual -->
+            <section id="sec-1">
+                <div class="inner">
+                    <h2>#바캉스 응모하고 경품 Get!</h2>
+                    <p class="txt">원하는 바캉스와 어울리는 쥬스 스무디를 확인하세요!</p>
+                    <ul class="list">
+                        <li>
+                            <a href="#">
+                                <p>럭셔리 리조트에서<br><em>기분좋은 촉촉함!</em></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>집에서 방콕하며<br><em>활기찬 에너지 충전!</em></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>오토 캠핑장에서<br><em>생기있는 바이탈라이징!</em></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>자연속 트레킹으로<br><em>편안하게 리프레싱!</em></p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="txt-box">
+                        <span>응모방법</span>
+                        <br>
+                        <p>
+                            바캉스 스타일을 선택 후
+                            <br>
+                            <strong>'응모하기'</strong>버튼을 눌러주세요
+                        </p>
+                    </div>
+                    <div class="btn-area">
+                        <button type="button" class="btn">응모하기</button>
+                    </div>
+                </div>
+            </section>
+            <section id="sec-2">
+                <div class="inner">
+                    <h2>경품안내</h2>
+                    <ul class="list">
+                        <li class="item1 item">하나투어 상품권<br>100만원 (1명)</li>
+                        <li class="item2 item">삼성 상품권<br>50만원 (2명)</li>
+                        <li class="item3 item">설빙 초코브라우니 빙수<br>500명</li>
+                        <li class="item4 item">스타벅스 핑크자몽 피지오<br>1,000명</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <footer id="footer">
+            <div class="inner">
+                <p class="foot-logo"><img src="images/foot-logo.png" alt="아모레퍼시픽"></p>
+                <div class="foot-info">
+                    <address>
+                        고객상담팀(수신자 요금 부담) 080-023-5454 ㅣ <br>
+                        상담시간 월~금 : AM 09:00 ~ PM 06:00
+                    </address>
+                    <p class="copyright">&copy; AMOREPACIFIC CORPORATION. All rights reserved.</p>
+                </div>
+                <div class="foot-sns">
+                    <a href="#" class="f">페이스북</a>
+                    <a href="#" class="y">유튜브</a>
+                    <a href="#" class="i">인스타그램</a>
+                    <a href="#" class="b">네이버블로그</a>
+                </div>
+            </div>
+        </footer>
+    </div> 
+    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+    
+</body>
+</html>
